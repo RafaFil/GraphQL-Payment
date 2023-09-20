@@ -14,7 +14,7 @@
         "outputPath": "c:\\Users\\59899\\Desktop\\GraphQL-Payment\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\59899\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\fede2\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
