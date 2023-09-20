@@ -1793,11 +1793,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\fede2\\OneDrive\\Escritorio\\ADA\\GraphQL-Payment\\Demo.csproj",
+      "projectUniqueName": "c:\\Users\\59899\\Desktop\\GraphQL-Payment\\Demo.csproj",
       "projectName": "Demo",
-      "projectPath": "c:\\Users\\fede2\\OneDrive\\Escritorio\\ADA\\GraphQL-Payment\\Demo.csproj",
-      "packagesPath": "C:\\Users\\fede2\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\fede2\\OneDrive\\Escritorio\\ADA\\GraphQL-Payment\\obj\\",
+      "projectPath": "c:\\Users\\59899\\Desktop\\GraphQL-Payment\\Demo.csproj",
+      "packagesPath": "C:\\Users\\59899\\.nuget\\packages\\",
+      "outputPath": "c:\\Users\\59899\\Desktop\\GraphQL-Payment\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\fede2\\AppData\\Roaming\\NuGet\\NuGet.Config",

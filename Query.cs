@@ -41,6 +41,36 @@ namespace Program
             return user;
         }
 
+        public bool MakePayment(ServicePaymentRequestDTO requestDTO) {
+
+            if(requestDTO == null || requestDTO == null) //aca se vería que la data de pago sea valida y correcta
+            {
+                return false;
+            }
+
+            return true;
+        }
+
+        //TODO: NO ANDA BAKI
+        public Boolean AddService(Service s ) 
+        {
+            services.Add(s);
+            return true;
+        }
+    }
+
+    public class ServicePaymentRequestDTO 
+    {
+        public string FromAccount { get; private set; }
+        public double Amount { get; private set; }
+        public string PaymentMethod { get; private set; }
+
+        public ServicePaymentRequestDTO(string fromAccount, double amount, string paymentMethod)
+        {
+            FromAccount = fromAccount;
+            Amount = amount;
+            PaymentMethod = paymentMethod;
+        }
     }
 
 }

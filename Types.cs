@@ -66,5 +66,12 @@ namespace Program
             this.MonthlyFee = monthlyFee;
         }
 
+        // public User(string userId, string name, string accountName, float monthlyFee)
+        // {
+        //     UserId = userId;
+        //     Name = name;
+        //     AccountName = accountName;
+        //     MonthlyFee = monthlyFee;
+        // }
     }
 }
