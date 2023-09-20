@@ -10,17 +10,17 @@ namespace Program {
         public Service() {
             
         }
-        // public Service(string name, string description, float monthlyFee)
-        // {
-        //     Name = name;
-        //     Description = description;
-        //     MonthlyFee = monthlyFee;
-        // }
+        public Service(string name, string description, float monthlyFee)
+        {
+            Name = name;
+            Description = description;
+            MonthlyFee = monthlyFee;
+        }
 
-        // public Service(string id, string name, string description, float monthlyFee) : this(name, description, monthlyFee)
-        // {
-        //     Id = id;
-        // }
+        public Service(string id, string name, string description, float monthlyFee) : this(name, description, monthlyFee)
+        {
+            Id = id;
+        }
 
     }
 
@@ -30,6 +30,17 @@ namespace Program {
         public string ReceiptId { get;  set; }
         public string EmitterId { get;  set; }
         public Service Service { get;  set; }
+
+        // public Payment(string receiptId, string emitterId, Service service) 
+        // {
+        //     ReceiptId = receiptId;
+        //     EmitterId = emitterId;
+        //     Service = service;
+        // }
+
+        // public Payment(string paymentId, string receiptId, string emitterId, Service service): this(receiptId, emitterId, service) {
+        //     PaymentId = paymentId;
+        // }
     }
 
     public class Subscription
@@ -39,6 +50,17 @@ namespace Program {
         public string SubscriptionId { get;  set; }
         public double CurrentDebt { get;  set; }
 
+        // public Subscription(string serviceId, string userId, double currentDebt)
+        // {
+        //     ServiceId = serviceId;
+        //     UserId = userId;
+        //     CurrentDebt = currentDebt;
+        // }
+
+        // public Subscription(string subscriptionId, string serviceId, string userId, double currentDebt) : this(serviceId, userId, currentDebt)
+        // {
+        //     SubscriptionId = subscriptionId;
+        // }
     }
 
     public class User
@@ -49,5 +71,12 @@ namespace Program {
         public string AccountName { get;  set; }
         public float MonthlyFee { get;  set; }
 
+        // public User(string userId, string name, string accountName, float monthlyFee)
+        // {
+        //     UserId = userId;
+        //     Name = name;
+        //     AccountName = accountName;
+        //     MonthlyFee = monthlyFee;
+        // }
     }
 }
