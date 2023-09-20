@@ -1788,19 +1788,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\59899\\.nuget\\packages\\": {}
+    "C:\\Users\\fede2\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\59899\\Desktop\\Demo\\Demo.csproj",
+      "projectUniqueName": "c:\\Users\\fede2\\OneDrive\\Escritorio\\ADA\\GraphQL-Payment\\Demo.csproj",
       "projectName": "Demo",
-      "projectPath": "C:\\Users\\59899\\Desktop\\Demo\\Demo.csproj",
-      "packagesPath": "C:\\Users\\59899\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\59899\\Desktop\\Demo\\obj\\",
+      "projectPath": "c:\\Users\\fede2\\OneDrive\\Escritorio\\ADA\\GraphQL-Payment\\Demo.csproj",
+      "packagesPath": "C:\\Users\\fede2\\.nuget\\packages\\",
+      "outputPath": "c:\\Users\\fede2\\OneDrive\\Escritorio\\ADA\\GraphQL-Payment\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\59899\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\fede2\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
